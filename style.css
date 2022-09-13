@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat+Alternates&family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans:wght@500;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600&family=Oswald:wght@400;600&family=Poppins:wght@200;300;700;800;900&family=Roboto:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Montserrat+Alternates&family=Montserrat:wght@400;500;600;700;800;900&family=Noto+Sans:wght@500;900&family=Nunito+Sans:wght@400;600;700;800;900&family=Open+Sans:wght@300;400;500;600;700;800&family=Orbitron:wght@400;600&family=Oswald:wght@400;600&family=Poppins:wght@200;300;700;800;900&family=Roboto:wght@300;400;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    background: #0D0D0D;
+    font-family: "Montserrat";
+}
+
+.Arthur {
+    position: relative;
+    left: 4%;
+    top: 5vh;
+}
+
+.Arthur img {
+    width: 40%;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    left: 56%;
+    top: 5%;
+}
+
+
+.list {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 76px;
+    position: absolute;
+    left: -22vh;
+    top: 4%;
+    color: #fff;
+    white-space: nowrap;
+}
+
+.logo {
+    width: 66%;
+    height: auto;
+    position: relative;
+    right: 108vh;
+
+}
+
+.main-section {
+    position: relative;
+    left: 100vh;
+    bottom: 55vh;
+}
+
+.main-section h2 {
+    color: #E21717;
+    font-size: 23px;
+    font-style: 100;
+}
+
+.main-section h1 {
+    font-size: 50px;
+    font-weight: 100;
+    color: #fff;
+
+}
+
+.main-section p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: none;
+    width: 80vh;
+    padding: 5px 6px;
+}
+
+.main-section .btn {
+    padding: 12px 31px;
+    margin: 26px 5px;
+    background-color: #E21717;
+    color: wheat;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.cards {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 51px;
+    position: absolute;
+    top: 108%;
+    z-index: 1;
+    margin-left: 16%;
+}
+.card-cmn{
+    height: 306px;
+    width: 300px;
+}
+.card-cmn h2{
+    margin-left: 5vh;
+    font-size: 28px;
+}
+.card-cmn h4 {
+    margin-left: 5vh;
+    font-size: 18px;
+    font-weight: 100;
+    width: 74%;
+    padding: 6px 0px;
+}
+.card-cmn img {
+    margin-left: 2vh;
+}
+.focused{
+    margin-top:15px;
+    margin-left: 0vh !important;
+
+}
+#third-logo{
+    margin-left: 1vh !important;
+}
+.card-cmn p {
+    margin-left: 5vh;
+    color: #E21717;
+    margin-top: 16px;
+}
+
+.card2 p{
+    color: #fff !important;
+}
+
+
+.card1 {
+    background-color: #242B2E;
+    
+}
+
+/* .card1 h2 {
+    margin-left: 25%;
+    font-size: 28px;
+} */
+
+/* .card1 h4 {
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: 100;
+    width: 74%;
+    padding: 6px 0px;
+} */
+
+
+
+
+
+.card2 {
+    background-color: #ee2525;
+}
+
+/* .card2 h2 {
+    margin-left: 25%;
+    font-size: 28px;
+}
+
+.card2 h4 {
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: 100;
+    width: 74%;
+    padding: 6px 0px;
+}
+
+.card2 img {
+    margin-left: 25%;
+}
+
+.card2 p {
+    margin-left: 25%;
+} */
+
+.card3 {
+    background-color: #242B2E;
+}
+
+/* .card3 h2 {
+    margin-left: 25%;
+    font-size: 28px;
+}
+
+.card3 h4 {
+    margin-left: 25%;
+    font-size: 18px;
+    font-weight: 100;
+    width: 74%;
+    padding: 6px 0px;
+}
+
+.card3 img {
+    margin-left: 25%;
+}
+
+.card3 p {
+    margin-left: 25%;
+    color: #E21717;
+} */
+
+.Featured-projects img {
+    height: 45vh;
+    width: 65vh;
+}
+
+.Featured-projects {
+    color: #fff;
+
+}
+
+.Experience {
+    color: #fff;
+    height: 102%;
+    width: 47%;
+    background: #16191b;
+    position: absolute;
+    top: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.exp {
+    font-size: 30px;
+    color: rgb(249, 66, 66);
+}
+
+.exp p {
+    position: absolute;
+    bottom: 20%;
+    left: 48%;
+    font-size: 53px;
+    font-weight: 600;
+}
+
+.exp h4 {
+    position: absolute;
+    bottom: 16%;
+    left: 42%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.Total {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 68vh;
+    margin-left: 91vh;
+    gap: 20px;
+    padding: 31px 0px;
+}
+
+.clients {
+    height: 79px;
+    width: 280px;
+    background: #242B2E;
+    text-align: center;
+
+}
+
+.clients p {
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.clients h4 {
+    color: #fff;
+}
+
+
+.years {
+    height: 79px;
+    width: 280px;
+    background:#242B2E;
+    text-align: center;
+
+}
+
+.years p {
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.years h4 {
+    color: #fff;
+}
+
+.projects {
+    height: 79px;
+    width: 280px;
+    background: #242B2E;
+    text-align: center;
+
+}
+
+.projects p {
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.projects h4 {
+    color: #fff;
+}
+
+.Achievements {
+    height: 79px;
+    width: 280px;
+    background: #242B2E;
+    text-align: center;
+
+}
+
+.Achievements p {
+    color: red;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+.Achievements h4 {
+    color: #fff;
+}
+
+.Main-head {
+    color: #fff;
+    margin-top: 75vh;
+    margin-left: 34vh;
+}
+
+.Featured-projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+    grid-gap: -20px;
+    padding: 0px 162px;
+    margin: 1px 80px;
+    margin-right: 11vh;
+
+}
+
+.Featured-projects img {
+    padding: 8vh 4vh;
+    background: #242B2E;
+}
+
+.lastcard {
+    height: 32vh;
+    width: 138vh;
+    background: #242B2E;
+    margin-left: 35vh;
+    margin-top: 7vh;
+    color: #fff;
+}
+
+.lastcard h1 {
+    width: 43%;
+    position: relative;
+    top: 14%;
+    left: 7%;
+}
+
+.lastcard h4 {
+    width: 43%;
+    position: relative;
+    top: 17%;
+    left: 7%;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.btn2 {
+    position: relative;
+    bottom: 31px;
+    left: 68%;
+    padding: 13px 60px;
+    background: #ef4141;
+    color: #fff;
+    border: none;
+}
+
+.Featured-projects h1 {
+    font-size: 20px;
+    margin-top: 8px;
+}
+.Featured-projects h4{
+    font-size: 12px;
+    color: #E21717;
+}
+.view-btn{
+padding: 14px 56px;
+    margin-left: 69%;
+    background: #E21717;
+    color: #FFF;
+    position: relative;
+    bottom: 6vh;
+}
+.list2{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 58px;
+    margin-top: 60px;
+    position: relative;
+    bottom: 12px;
+}
+.footer{
+    background: #242B2E;
+}
+.logo2{
+height: auto;
+    width: 6%;
+    margin-left: 16%;
+    margin-bottom: 1%;
+    position: relative;
+    top: 2vh;
+}
+.icon{
+height: auto;
+    width: 9%;
+    margin-left: 20%;
+}
+.icon_color{
+    color: white;
+}
+.icons-style{
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    position: relative;
+    top: -4vh;
+}
